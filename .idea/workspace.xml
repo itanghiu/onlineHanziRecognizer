@@ -1,127 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="352b8344-65f9-40c7-ad5b-21e0b08c0df9" name="Default" comment="Refactoring">
-      <change afterPath="$PROJECT_DIR$/HanziRecogSwingUI/HanziRecogSwingUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HanziRecogSwingUI/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/wiki.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="352b8344-65f9-40c7-ad5b-21e0b08c0df9" name="Default" comment="Added 2 screenshots">
+      <change afterPath="$PROJECT_DIR$/doc/HanziRecogSwingUI.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/OnlineHanziRecogWebUI.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/HanziRecog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/HanziRecogEngine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/MatcherThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/MatcherThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/StrokesMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/StrokesMatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/StrokesStreamProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/StrokesStreamProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/beans/CharacterDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/beans/CharacterDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/beans/CharacterMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/beans/CharacterMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/beans/SubStrokeDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/beans/SubStrokeDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/beans/TypeDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/beans/TypeDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/beans/WrittenCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/beans/WrittenCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/beans/WrittenPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/beans/WrittenPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/beans/WrittenStroke.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/beans/WrittenStroke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/enums/CharacterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/enums/CharacterType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/service/datasource/BaseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/service/datasource/BaseParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/service/datasource/CharacterTypeParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/service/datasource/CharacterTypeParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/service/datasource/CharacterTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/service/datasource/CharacterTypeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/service/datasource/MemoryStrokesStreamProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/service/datasource/MemoryStrokesStreamProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/service/datasource/ResourceStrokesStreamProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/service/datasource/ResourceStrokesStreamProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/service/datasource/StrokesDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/service/datasource/StrokesDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/service/datasource/StrokesParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/service/datasource/StrokesParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/strokes.dat" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/resources/strokes.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/util/CurveUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/util/CurveUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/util/HanziLookupBundleKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/util/HanziLookupBundleKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/util/IOUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/util/IOUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/engine/util/PriorityList.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/util/PriorityList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/handwrittenHanziAnalyzer/CharacterCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/handwrittenHanziAnalyzer/CharacterCanvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/handwrittenHanziAnalyzer/CharacterEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/handwrittenHanziAnalyzer/CharacterEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/handwrittenHanziAnalyzer/ChineseFontChooserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/handwrittenHanziAnalyzer/ChineseFontChooserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/handwrittenHanziAnalyzer/JClickableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/handwrittenHanziAnalyzer/JClickableList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/handwrittenHanziAnalyzer/JFontChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/handwrittenHanziAnalyzer/JFontChooser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/handwrittenHanziAnalyzer/JTextListLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/handwrittenHanziAnalyzer/JTextListLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/handwrittenHanziAnalyzer/StartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/handwrittenHanziAnalyzer/StartApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/onlineHanziRecog/OnlineHanziRecog.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/OnlineHanziRecog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/onlineHanziRecog/StartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/StartApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/uicommon/ChineseFontFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/uicommon/ChineseFontFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/uicommon/HanziLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/uicommon/HanziLookup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/src/main/java/swingui/uicommon/HanziLookupUIBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/uicommon/HanziLookupUIBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/MatcherThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/StrokesMatcher$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/StrokesMatcher$CharacterMatchCollector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/StrokesMatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/StrokesStreamProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/beans/CharacterDescriptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/beans/CharacterMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/beans/SubStrokeDescriptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/beans/TypeDescriptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/beans/WrittenCharacter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/beans/WrittenPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/beans/WrittenStroke.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/enums/CharacterType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/service/datasource/BaseParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/service/datasource/CharacterTypeParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/service/datasource/CharacterTypeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/service/datasource/MemoryStrokesStreamProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/service/datasource/ResourceStrokesStreamProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/service/datasource/StrokesDataSource$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/service/datasource/StrokesDataSource$StrokesDataScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/service/datasource/StrokesDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/service/datasource/StrokesParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/strokes.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/util/CurveUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/util/HanziLookupBundleKeys$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/util/HanziLookupBundleKeys$DefaultEnglishBundle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/util/HanziLookupBundleKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/util/IOUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/engine/util/PriorityList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/CharacterCanvas$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/CharacterCanvas$StrokeEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/CharacterCanvas$StrokesListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/CharacterCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/CharacterEntry$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/CharacterEntry$StrokeEntryCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/CharacterEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/ChineseFontChooserFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/ChineseFontChooserFactory$SimplifiedFontFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/ChineseFontChooserFactory$TraditionalFontFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/ChineseFontChooserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JClickableList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JClickableList$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JClickableList$ListClickedEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JClickableList$ListClickedListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JClickableList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JFontChooser$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JFontChooser$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JFontChooser$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JFontChooser$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JFontChooser$FontChooserDialog$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JFontChooser$FontChooserDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JFontChooser$FontFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JFontChooser$FontReturner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JFontChooser$FontSelectionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JFontChooser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JTextListLink$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JTextListLink$UpdateListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/JTextListLink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/handwrittenHanziAnalyzer/StartApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/onlineHanziRecog/OnlineHanziRecog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/onlineHanziRecog/StartApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/uicommon/ChineseFontFinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/uicommon/HanziLookup$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/uicommon/HanziLookup$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/uicommon/HanziLookup$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/uicommon/HanziLookup$CharacterSelectionEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/uicommon/HanziLookup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/uicommon/HanziLookupUIBuilder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/uicommon/HanziLookupUIBuilder$MacroKeyListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/classes/swingui/uicommon/HanziLookupUIBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanziRecog/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HanziRecog/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foryousoft/HanziRecogSrv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foryousoft/HanziRecogSrv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/application-default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-default.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -139,23 +23,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wiki.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wiki.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc/wiki.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="207">
-                <caret line="65" column="2" lean-forward="true" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="136">
+                <caret line="36" column="32" selection-end-line="95" selection-end-column="187" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="69" column="45" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="45" />
+            <state relative-caret-position="333">
+              <caret line="74" column="10" selection-start-line="74" selection-end-line="74" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="207">
+                <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -163,7 +59,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HanziRecogSwingUI/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="1035">
               <caret line="45" column="34" selection-start-line="41" selection-start-column="24" selection-end-line="45" selection-end-column="34" />
             </state>
           </provider>
@@ -256,7 +152,6 @@
         <option value="$PROJECT_DIR$/HanziRecog/src/main/java/engine/util/PriorityList.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/chineseCharRecog.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/foryousoft/ChineseCharController.java" />
-        <option value="$PROJECT_DIR$/doc/README.md" />
         <option value="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/uicommon/HanziLookup.java" />
         <option value="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/onlineHanziRecog/OnlineHanziRecog.java" />
         <option value="$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/OnlineHanziRecog.java" />
@@ -269,6 +164,7 @@
         <option value="$PROJECT_DIR$/HanziRecog/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/doc/wiki.md" />
+        <option value="$PROJECT_DIR$/doc/README.md" />
       </list>
     </option>
   </component>
@@ -299,6 +195,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,18 +204,11 @@
               <item name="onlineHanziRecognizer" type="b2602c69:ProjectViewProjectNode" />
               <item name="onlineHanziRecognizer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="onlineHanziRecognizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineHanziRecognizer" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,16 +350,28 @@
       <option name="project" value="LOCAL" />
       <updated>1536222167152</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactoring&#10;Turned the swing UI code into a module.&#10;Made the swing UI and the web server executable via command line">
+      <created>1536992451302</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536992451303</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Filled in the README file">
+      <created>1536992611626</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536992611626</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1048" height="624" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1400" height="768" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.499631" weight="0.5303644" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -476,12 +379,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.4493927" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.7024292" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3097166" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21786834" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49411765" visible="true" weight="0.13333334" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49411765" visible="true" weight="0.14307004" />
       <window_info anchor="bottom" id="Analysis" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3273453" />
       <window_info id="Structure" order="6" sideWeight="0.5058824" side_tool="true" weight="0.22981957" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -494,6 +396,8 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3273453" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.499631" weight="0.5303644" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -514,7 +418,9 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="Refactoring&#10;Turned the swing UI code into a module.&#10;Made the swing UI and the web server executable via command line" />
+    <MESSAGE value="Filled in the README file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filled in the README file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -738,16 +644,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui.java" />
     <entry file="file://$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/App.java" />
-    <entry file="file://$PROJECT_DIR$/doc/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="46">
-            <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/uicommon/HanziLookup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -791,30 +687,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HanziRecogSwingUI/target/classes/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/HanziRecog/src/main/resources/META-INF/MANIFEST.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="12" selection-start-column="12" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HanziRecogSwingUI/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HanziRecog/src/main/resources/META-INF/MANIFEST.MD" />
+    <entry file="file://$PROJECT_DIR$/HanziRecogSwingUI/META-INF/MANIFEST.MF" />
     <entry file="file://$PROJECT_DIR$/HanziRecog/src/main/java/hanzirecog/engine/MatcherThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,25 +722,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HanziRecogSwingUI/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="1035">
           <caret line="45" column="34" selection-start-line="41" selection-start-column="24" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/wiki.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="207">
-            <caret line="65" column="2" lean-forward="true" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="69" column="45" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="45" />
+        <state relative-caret-position="333">
+          <caret line="74" column="10" selection-start-line="74" selection-end-line="74" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="207">
+            <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/wiki.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="136">
+            <caret line="36" column="32" selection-end-line="95" selection-end-column="187" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
