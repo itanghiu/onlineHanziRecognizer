@@ -1,13 +1,13 @@
 package com.foryousoft;
 
-import engine.beans.CharacterDescriptor;
-import engine.beans.WrittenCharacter;
-import engine.beans.WrittenPoint;
-import engine.beans.WrittenStroke;
-import engine.service.datasource.StrokesDataSource;
-import engine.enums.CharacterType;
-import engine.MatcherThread;
-import engine.StrokesMatcher;
+import hanzirecog.engine.beans.CharacterDescriptor;
+import hanzirecog.engine.beans.WrittenCharacter;
+import hanzirecog.engine.beans.WrittenPoint;
+import hanzirecog.engine.beans.WrittenStroke;
+import hanzirecog.engine.service.datasource.StrokesDataSource;
+import hanzirecog.engine.enums.CharacterType;
+import hanzirecog.engine.MatcherThread;
+import hanzirecog.engine.StrokesMatcher;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
