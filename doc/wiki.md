@@ -9,15 +9,18 @@
  The results are a list of most probable candidate character.
  Two interfaces are provided , a Swing UI and a web UI.
  
-Screenshots swing UI
-Screenshots Web UI
+#### Screenshots swing UI
+![](https://github.com/itanghiu/onlineHanziRecognizer/blob/master/doc/HanziRecogSwingUI.PNG)
+
+#### Screenshots Web UI
+![](https://github.com/itanghiu/onlineHanziRecognizer/blob/master/doc/OnlineHanziRecogWebUI.PNG)
 
 #### Launching the Swing UI interface :
 
 #####Through command line :
 
 In a terminal :
-- change directory to .. onlineHanziRecognizer\
+- change directory to .. onlineHanziRecognizer\HanziRecog
 - type in : mvn clean compile assembly:single
 - change directory to .. onlineHanziRecognizer\HanziRecogSwingUI
 - type in : mvn clean compile assembly:single
@@ -31,6 +34,8 @@ Launch the class : hanzirecog.swingui.StartApp
 
 #####Through command line :
 
+- change directory to .. onlineHanziRecognizer\HanziRecog
+- type in : mvn clean compile assembly:single
 - change directory to .. onlineHanziRecognizer
 - type in : mvn package
 - type in : java -jar .\target\hanziRecogWebServer-1.0-SNAPSHOT.jar

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="352b8344-65f9-40c7-ad5b-21e0b08c0df9" name="Default" comment="Added 2 screenshots">
-      <change afterPath="$PROJECT_DIR$/doc/HanziRecogSwingUI.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/OnlineHanziRecogWebUI.PNG" afterDir="false" />
+    <list default="true" id="352b8344-65f9-40c7-ad5b-21e0b08c0df9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/wiki.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/wiki.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,10 +26,19 @@
         <entry file="file://$PROJECT_DIR$/doc/wiki.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="136">
-                <caret line="36" column="32" selection-end-line="95" selection-end-column="187" />
+              <first_editor relative-caret-position="169">
+                <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -38,7 +46,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
+            <state relative-caret-position="1702">
               <caret line="74" column="10" selection-start-line="74" selection-end-line="74" selection-end-column="10" />
             </state>
           </provider>
@@ -114,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/foryousoft/value.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/foryousoft/Strokes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/foryousoft/Controller.java" />
@@ -163,8 +170,9 @@
         <option value="$PROJECT_DIR$/HanziRecogSwingUI/pom.xml" />
         <option value="$PROJECT_DIR$/HanziRecog/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/doc/wiki.md" />
         <option value="$PROJECT_DIR$/doc/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/doc/wiki.md" />
       </list>
     </option>
   </component>
@@ -186,8 +194,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-14" />
-    <option name="width" value="2450" />
-    <option name="height" value="1344" />
+    <option name="width" value="2452" />
+    <option name="height" value="1346" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,7 +204,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,11 +211,27 @@
               <item name="onlineHanziRecognizer" type="b2602c69:ProjectViewProjectNode" />
               <item name="onlineHanziRecognizer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="onlineHanziRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlineHanziRecognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineHanziRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlineHanziRecognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="HanziRecog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineHanziRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlineHanziRecognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,11 +246,11 @@
       <recent name="hanzirecog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\DATA\DEV\JAVA\onlineHanziRecognizer" />
       <recent name="C:\DATA\DEV\JAVA\onlineHanziRecognizer\HanziRecog\src\main" />
       <recent name="C:\DATA\DEV\JAVA\onlineHanziRecognizer\HanziRecog\src\resources" />
       <recent name="C:\DATA\DEV\JAVA\onlineHanziRecognizer\HanziRecogSwingUI" />
       <recent name="C:\DATA\DEV\JAVA\onlineHanziRecognizer\HanziRecogSwingUI\src\main\resource" />
-      <recent name="C:\DATA\DEV\JAVA\onlineHanziRecognizer\HanziRecog\src\main\java\engine" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,11 +387,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536992611626</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added 2 screenshots&#10;- Filled in the README file">
+      <created>1536993146419</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536993146419</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1400" height="768" extended-state="0" />
+    <frame x="-8" y="0" width="1401" height="769" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -377,19 +407,20 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.500369" side_tool="true" weight="0.21640736" />
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.4493927" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.7024292" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21786834" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.39906102" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.44357365" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49411765" visible="true" weight="0.14307004" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49411765" visible="true" weight="0.14519732" />
       <window_info anchor="bottom" id="Analysis" order="8" />
       <window_info id="Structure" order="6" sideWeight="0.5058824" side_tool="true" weight="0.22981957" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.7591093" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.499631" weight="0.5303644" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,7 +428,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3273453" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.499631" weight="0.5303644" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -410,6 +440,32 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -420,7 +476,8 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Refactoring&#10;Turned the swing UI code into a module.&#10;Made the swing UI and the web server executable via command line" />
     <MESSAGE value="Filled in the README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Filled in the README file" />
+    <MESSAGE value="Added 2 screenshots&#10;- Filled in the README file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 screenshots&#10;- Filled in the README file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -437,13 +494,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HanziRecogSwingUI/src/main/java/hanzirecog/swingui/handwrittenHanziAnalyzer/ChineseFontChooserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logging.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -729,7 +779,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
+        <state relative-caret-position="1702">
           <caret line="74" column="10" selection-start-line="74" selection-end-line="74" selection-end-column="10" />
         </state>
       </provider>
@@ -744,11 +794,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/wiki.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="136">
-            <caret line="36" column="32" selection-end-line="95" selection-end-column="187" />
+          <first_editor relative-caret-position="169">
+            <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
