@@ -37,7 +37,7 @@ Launch the class : hanzirecog.swingui.StartApp
 - change directory to .. onlineHanziRecognizer\HanziRecog
 - type in : mvn clean compile assembly:single
 - change directory to .. onlineHanziRecognizer
-- type in : mvn package
+- type in : mvn package 
 - type in : java -jar .\target\hanziRecogWebServer-1.0-SNAPSHOT.jar
 - In a browser, enter the url: http://localhost:8585/
 
