@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352b8344-65f9-40c7-ad5b-21e0b08c0df9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/wiki.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/wiki.md" afterDir="false" />
     </list>
@@ -26,8 +25,8 @@
         <entry file="file://$PROJECT_DIR$/doc/wiki.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="169">
-                <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+              <first_editor relative-caret-position="215">
+                <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -192,10 +191,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
-    <option name="width" value="2452" />
-    <option name="height" value="1346" />
+    <option name="y" value="-14" />
+    <option name="width" value="2477" />
+    <option name="height" value="1467" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,6 +204,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,8 +232,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,11 +394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536993146419</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modified the wiki file">
+      <created>1536995193950</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536995193950</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1401" height="769" extended-state="0" />
+    <frame x="-79" y="44" width="1113" height="633" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -406,23 +413,23 @@
       <window_info id="Image Layers" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.500369" side_tool="true" weight="0.21640736" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.32985783" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.39906102" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.7024292" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.39906102" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.44357365" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2664016" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49411765" visible="true" weight="0.14519732" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49411765" visible="true" weight="0.14786729" />
       <window_info anchor="bottom" id="Analysis" order="8" />
       <window_info id="Structure" order="6" sideWeight="0.5058824" side_tool="true" weight="0.22981957" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.7591093" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.499631" weight="0.5303644" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.7591093" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.499631" weight="0.5303644" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -477,7 +484,8 @@
     <MESSAGE value="Refactoring&#10;Turned the swing UI code into a module.&#10;Made the swing UI and the web server executable via command line" />
     <MESSAGE value="Filled in the README file" />
     <MESSAGE value="Added 2 screenshots&#10;- Filled in the README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 2 screenshots&#10;- Filled in the README file" />
+    <MESSAGE value="Modified the wiki file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified the wiki file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -804,8 +812,8 @@
     <entry file="file://$PROJECT_DIR$/doc/wiki.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="169">
-            <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <first_editor relative-caret-position="215">
+            <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>
